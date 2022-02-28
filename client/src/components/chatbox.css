@@ -1,0 +1,14 @@
+.mute{
+ position: absolute;
+ position: fixed;
+ top: 20px;
+ left: 20px;
+ border-radius: 50%;
+ height: 50px;
+ width: 50px;
+ border-style: none;
+}
+video{
+ display: none;
+ visibility: hidden;
+}

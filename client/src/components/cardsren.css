@@ -1,0 +1,107 @@
+* {
+ box-sizing: border-box;
+}
+
+.imgc {
+ display: flex;
+ flex-direction: row;
+ margin: 480px 0 0;
+ justify-content: center;
+}
+
+.inactive{
+  position: absolute;
+  top: 480px;
+ height: 110px;
+ width: 100vw;
+}
+.imgf{
+ height: 110px;
+ margin: 0 3px;
+}
+.imgc :hover{
+ transform: scale(1.1);
+ cursor: pointer;
+}
+.tables{
+ background-color: rosybrown;
+ position: relative;
+ position: absolute;
+ top: 40%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ height: 400px;
+ width: 500px;
+ border: 10px solid white;
+}
+.t{
+ background-color: transparent;
+ position: absolute;
+ top: 40%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ height: 400px;
+ width: 500px;
+ z-index: 1;
+}
+.tables p{
+ position: absolute;
+ color: #ffffff;
+ margin: 0;
+ text-align: center;
+}
+.top-name{
+ top: 10px;
+ left: 50%;
+ transform: translate(-50%, 0);
+}
+.bottom-name{
+ bottom: 10px;
+ left: 50%;
+ transform: translate(-50%, 0);
+}
+.right-name{
+ top: 50%;
+ right: 10px;
+ transform: translate(0, -50%);
+ writing-mode: vertical-lr;
+}
+.left-name{
+ top: 162.75px;
+ left: 10px;
+ writing-mode: vertical-lr;
+ transform: rotate(180deg);
+}
+
+.tables img{
+ position: absolute;
+ margin: 0;
+}
+.trump{
+ height: 50px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.top-card{
+ height: 100px;
+ top: 40px;
+ transform: translate(-50%,0);
+}
+.bottom-card{
+ height: 100px;
+ bottom: 40px;
+ transform: translate(-50%,0);
+}
+.left-card{
+ height: 100px;
+ left: 40px;
+ top: 50%;
+ transform: translate(0, -50%);
+}
+.right-card{
+ height: 100px;
+ right: 40px;
+ top: 50%;
+ transform: translate(0, -50%);
+}
