@@ -14,9 +14,7 @@ const io = new Server(http, {
   }, 
 });
 
-//mongodb://localhost:27017/courtDB
-//mongodb+srv://shivam:Shivam0401@blog.jdkd4.mongodb.net/courtDB
-mongoose.connect("mongodb+srv://shivam:Shivam0401@blog.jdkd4.mongodb.net/courtDB", {
+mongoose.connect(process.env.MONGOURI, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 }); 
